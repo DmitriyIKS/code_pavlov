@@ -1,0 +1,41 @@
+var product = {
+ id:023678958,
+ name:'Milky way, 800 г',
+ description:'конфеты с молочным шоколадом',
+ price: 199.00,
+ sum: 45,
+ discount: 5,
+ currency:'руб.',
+ discountPrice: function (){
+  return (this.price * (1 - this.discount/100)).toFixed(2);
+ }
+}
+document.write(product.price +" Начальная цена ," +product.discount +" Скидка ," +product.discountPrice() +" Скидочная цена <br>");
+
+var product2 = {
+ id:023678957,
+ name:'Bounty max black',
+ description:'конфеты с начинкой кокоса',
+ price: 399.00,
+ sum: 40,
+ discount: 5,
+ currency:'руб.',
+ discountPrice: function (){
+  return (this.price * (1 - this.discount/100)).toFixed(2);
+ }
+}
+document.write(product2.price +" Начальная цена ," +product2.discount +" Скидка ," +product2.discountPrice() +" Скидочная цена <br>");
+
+var product3 = {
+ id:023678956,
+ name:'Snickers white peanut',
+ description:'конфеты с нугой и арахисом',
+ price: 499.00,
+ sum: 50,
+ discount: 50,
+ currency:'руб.',
+ discountPrice: function (){
+  return (this.price * (1 - this.discount/100)).toFixed(2);
+ }
+}
+document.write(product3.price +" Начальная цена ," +product3.discount +" Скидка ," +product3.discountPrice() +" Скидочная цена <br>");

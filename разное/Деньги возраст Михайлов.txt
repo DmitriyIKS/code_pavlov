@@ -1,0 +1,19 @@
+let age =+prompt('Введите возраст', 32);
+let money =+prompt('Введите ваше ЗП', 65000);
+let money_future =+prompt('Введите ЗП которое хотите получать', 45000);
+let diff = money_future-money;
+function getAccess(){
+    if(age<17){
+        return alert('Вы не рассматриваетесь');
+    }else if(age>=17 && diff == 20000){
+        return alert('Вы стремитесь развиваться');
+    }else if(age>=17 && diff == 40000){
+        return alert('Вы профессионал');
+    }else if(age>=17 && diff<10000 && diff >=0 ){
+        return alert('Вы стоите на месте');
+    }else if(age>=17 && diff <0){
+        return alert('Вы дегр');
+    }
+}
+
+getAccess();

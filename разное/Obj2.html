@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+	<meta charset="UTF-8">
+		<title>Document</title>
+</head>
+<body>
+<h1>Мои объекты</h1>
+<p id="obl"></p>
+	<script>
+		var person = {
+			fName:"Иванов",
+			lName:"Petr",
+			age: 45,
+			langv: "rus"
+		}
+		document.getElementById("obl").innerHTML = person.fName +" "+ person.lName +" " + person.age +' '+ person.langv;
+	</script>
+	<h1>Проверка наличия элемента</h1> 
+	<script>
+let user ={ name:"Ivan", age:33};
+alert("age" in user)
+document.getElementById("lName" in user)
+	</script>
+</body>
+</html>

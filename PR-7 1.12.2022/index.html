@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="title"><title>Знаки задиака</title></div>
+    <div><h1>Гороскоп</h1></div>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+ 
+<ul id="slides">
+    <li class="slide showing">Рак</li>
+    <li class="slide">Скорпион </li>
+    <li class="slide">Стрелец </li>
+    <li class="slide">Дева </li>
+    <li class="slide">Козерог </li>
+    <li class="slide">Лев </li>
+    <li class="slide">Овен </li>
+    <li class="slide">Рыбы </li>
+    <li class="slide">Телец </li>
+    <li class="slide">Весы </li>
+    <li class="slide">Водолей </li>
+    <li class="slide">Близнецы </li>
+    
+</ul>
+   <script type="text/javascript" src="js/script1.js"> var slides = document.querySelectorAll('#slides .slide');
+    var currentSlide = 0;
+    var slideInterval = setInterval(nextSlide,3000);
+
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide showing';
+} 
+</script>
+        
+    
+    
+    
+    первый блок
+    <div class="prvblok"><h1>Хотите знать о себе?</h1>
+    <button class="button button1" onclick="" ></button>Да
+    <button class="button button2" onclick="End()" ></button>Нет</div>
+    
+    
+    второй блок
+    <div class="vtrblok"><h1>По году или по знаку задиака?</h1>
+    <button class="button button3" onclick="" ></button>По году
+    <button class="button button4" onclick="cYear()" ></button>По знаку Зодиака</div>
+   
+   
+   
+    третий блок
+    <div><h1>Введите год рождения</h1></div>
+    <input type="date" name="" id="year"><button class="button button12" onclick="cYear()" >Подтвердить</button>
+    <p id="CYear"></p>
+    <div><h1>Введите дату рождения</h1></div>
+    <input type="date" name="" id="month"><button class="button button21" onclick="cYear()" >Подтвердить</button>
+    
+    <div><h1>Хотите новую дату?</h1></div>
+    <button class="button button2" onclick="" ></button>Да
+    <button class="button button1" onclick="End()" ></button>Нет
+
+</body>
+</html> 

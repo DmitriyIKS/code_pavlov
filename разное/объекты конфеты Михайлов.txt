@@ -1,0 +1,37 @@
+var productOne ={
+    name: 'Ласточка 1 кг',
+    discription: 'Любимые семейные конфеты',
+    sum: 12,
+    price: 225.00,
+    discount: 12,
+    currency: 'руб'
+}
+productOne.discounPrice = discPr();
+function discPr() {
+    return(productOne.price * (1-productOne.discount/100)) .toFixed(2);
+}
+var productTwo ={
+    name: ' Лёвушка 1 кг',
+    discription: 'Шоколад с нежным мармеладом внутри',
+    sum: 12,
+    price: 305.00,
+    discount: 7,
+    currency: 'руб'
+}
+productTwo.discounPrice = discPr2();
+function discPr2() {
+    return(productTwo.price * (1-productTwo.discount/100)) .toFixed(2);
+}
+var productThree ={
+    name: 'Ромашка 1 кг',
+    discription: 'Руссикй шоколад',
+    sum: 12,
+    price: 275.00,
+    discount: 20,
+    currency: 'руб'
+}
+productThree.discounPrice = discPr3();
+function discPr3() {
+    return(productThree.price * (1-productThree.discount/100)) .toFixed(2);
+}
+document.write(productOne.name + ' ' + productOne.price + '.' + productOne.currency + ' '  + productOne.discounPrice + '.' + productOne.currency + productTwo.name + ' ' + productTwo.price + '.' + productTwo.currency + ' ' + productTwo.discounPrice + '.' + productTwo.currency +  productThree.name + ' ' +  productThree.price + '.' +  productThree.currency + ' ' +  productThree.discounPrice + '.' +  productThree.currency)
