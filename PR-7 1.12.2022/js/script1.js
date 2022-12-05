@@ -13,31 +13,56 @@ function cZod(){
     x=y
     month = x[5]+x[6];
     day = x[8]+x[9];
-    if ( month == 1 && day <= 20 ) {
+   1 if ( month == 1 && day > 20 ) {
         document.getElementById('zodiak-content').innerHTML = "Вы козерог  " + '<br>' + "<img src='img/monkey.jpg' width='450' height='450'>";
-    } else if ( month == 2 && day <=16) {
-        document.getElementById('zodiak-content').innerHTML = "Вы козерог " + '<br>' + "<img src='img/petyx.jpg' width='450' height='450'>";
-    } else if (  ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Собики " + '<br>' + "<img src='img/dog.jpg' width='450' height='450'>";
-    } else if (  ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Свиньи " + '<br>' + "<img src='img/pig.jpg' width='450' height='450'>";
-    } else if ( ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Крысы " + '<br>' + "<img src='img/kris.jpg' width='450' height='450'>";
-    } else if (  ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Быка " + '<br>' + "<img src='img/bik.jpg' width='450' height='450'>";
-    } else if ( ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Тигра " + '<br>' + "<img src='img/tigr.jpg' width='450' height='450'>";
-    } else if (  ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Кролика " + '<br>' + "<img src='img/krolik.jpg' width='450' height='450'>";
-    } else if (  ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Дракона " + '<br>' + "<img src='img/drakon.jpg' width='450' height='450'>";
-    } else if (  ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Змеи " + '<br>' + "<img src='img/zmei.jpg' width='450' height='450'>";
-    } else if (  ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Лошади " + '<br>' + "<img src='img/lohad.jpg' width='450' height='450'>";
-    } else if (  ) {
-        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Козы " + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
-    } else {
+  2  } else if ( month == 2 && day <=16) {
+        document.getElementById('zodiak-content').innerHTML = "Вы козерог* " + '<br>' + "<img src='img/petyx.jpg' width='450' height='450'>";
+  3  } else if ( month == 2 && day > 16 ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы водолей " + '<br>' + "<img src='img/dog.jpg' width='450' height='450'>";
+  4  } else if ( month == 3 && day <= 11 ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  водолей" + '<br>' + "<img src='img/pig.jpg' width='450' height='450'>";
+  5  } else if ( month == 3 && day > 11) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  рыбы" + '<br>' + "<img src='img/kris.jpg' width='450' height='450'>";
+  6  } else if ( month == 4 && day <= 18) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  рыбы" + '<br>' + "<img src='img/bik.jpg' width='450' height='450'>";
+  7  } else if ( month == 4 && day > 18) {
+        document.getElementById('zodiak-content').innerHTML = "Вы овен " + '<br>' + "<img src='img/tigr.jpg' width='450' height='450'>";
+   8 } else if ( month == 5 && day <=13 ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  овен" + '<br>' + "<img src='img/krolik.jpg' width='450' height='450'>";
+    9} else if ( month == 5 && day > 13   ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы телец " + '<br>' + "<img src='img/drakon.jpg' width='450' height='450'>";
+    10} else if ( month == 6 && day <=21 ) {
+       document.getElementById('zodiak-content').innerHTML = "Вы телец " + '<br>' + "<img src='img/zmei.jpg' width='450' height='450'>";
+   11 } else if ( month == 6 && day > 21 ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  Близнецы" + '<br>' + "<img src='img/lohad.jpg' width='450' height='450'>";
+    12} else if ( month == 7 && day <=20  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  Близнецы" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    } else if ( month == 7 && day > 20  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  рак" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 8 && day <= 10  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  рак" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 8  && day > 10 ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  лев" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 9  && day <=16   ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  лев" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 9 && day >16  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  дева" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 10  && day <=30  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  дева" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 10 && day >30 ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  весы" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 11 && day <= 23  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  весы" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 11 && day > 23  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы  скорпион" + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 12 && day <=17 ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы скорпион " + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 12 && day >17  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы стрелец " + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }else if ( month == 1 && day <=20 ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы стрелец " + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    }
+    else {
         document.getElementById('zodiak-content').innerHTML = "Error";
     }
 }
