@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="title"><title>Знаки задиака</title></div>
     <div><h1>Гороскоп</h1></div>
-    <link rel="stylesheet" href="Style.css">
-    
+    <link rel="stylesheet" href="Style.css">   
 </head>
 <body>
- 
+<!--Слайдер-->
 <ul id="slides">
     <li class="slide showing">Рак</li>
     <li class="slide">Скорпион </li>
@@ -24,8 +23,9 @@
     <li class="slide">Весы </li>
     <li class="slide">Водолей </li>
     <li class="slide">Близнецы </li>
-    
 </ul>
+
+<!-- Скрипт слайдера-->
 <script type="text/javascript" src="js/script1.js"></script>
 <script> 
     var slides = document.querySelectorAll('#slides .slide');
@@ -38,25 +38,22 @@
     slides[currentSlide].className = 'slide showing';
 } 
 </script>
-        
-    
-    
-    <div id="clearId">
+
+<div id="clearId">
     <!--первый блок-->
     <div class="prvblok"><h1>Хотите знать о себе?</h1>
-    <button class="button button1" onclick="Open()" ></button>Да
-    <button class="button button2" onclick="End()" ></button>Нет</div>
+    <button class="button button1" onclick="Open()"></button>Да   
+    <button class="button button2" onclick="End()"></button>Нет</div>
     
-    <!--    второй блок-->
+    <!--второй блок-->
     <div class="vtrblok" id="vtrBlokId"></div>
    
    
-    <!--    третий блок-->
+    <!--третий блок-->
     <div class="trtblok" id="trtBlokId"></div>
     
-    <div class="refresh" id="refreshId"><p>Хотите новую дату?</p>
-    <button class="button button2" onclick="Clear()"></button>Да
-    <button class="button button1" onclick="End()"></button>Нет</div>
-    </div>
+    <!--четвертый блок-->
+    <div class="refresh" id="refreshId"></div>
+</div>
 </body>
 </html> 
