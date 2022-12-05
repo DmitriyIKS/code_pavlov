@@ -26,11 +26,13 @@
     <li class="slide">Близнецы </li>
     
 </ul>
-   <script type="text/javascript" src="js/script1.js"> var slides = document.querySelectorAll('#slides .slide');
+<script type="text/javascript" src="js/script1.js"></script>
+<script> 
+    var slides = document.querySelectorAll('#slides .slide');
     var currentSlide = 0;
     var slideInterval = setInterval(nextSlide,3000);
 
-function nextSlide() {
+    function nextSlide() {
     slides[currentSlide].className = 'slide';
     currentSlide = (currentSlide+1)%slides.length;
     slides[currentSlide].className = 'slide showing';
@@ -39,33 +41,22 @@ function nextSlide() {
         
     
     
-    
+    <div id="clearId">
     <!--первый блок-->
     <div class="prvblok"><h1>Хотите знать о себе?</h1>
-    <button class="button button1" onclick="" ></button>Да
+    <button class="button button1" onclick="Open()" ></button>Да
     <button class="button button2" onclick="End()" ></button>Нет</div>
     
     <!--    второй блок-->
-    <div class="vtrblok"><h1>По году или по знаку задиака?</h1>
-    <button class="button button3" onclick="" ></button>По году
-    <button class="button button4" onclick="cYear()" ></button>По знаку Зодиака</div>
+    <div class="vtrblok" id="vtrBlokId"></div>
    
    
     <!--    третий блок-->
-    <div class="trtblok">
-        <div class="godina">
-        <p>Введите год рождения</p>
-        <input type="date" name="year" ><button class="button button12" onclick="cYear()" >Подтвердить</button>
-        <p id="god-content"></p></div>
-        <div class="zodiak">
-        <p>Введите дату рождения</p>
-        <input type="date" name="" id="month"><button class="button button21" onclick="cYear()" >Подтвердить</button>
-        <p id="zodiak-content"></p></div>
-    </div>
+    <div class="trtblok" id="trtBlokId"></div>
     
-    <div class="refresh"><p>Хотите новую дату?</p>
-    <button class="button button2" onclick="" ></button>Да
-    <button class="button button1" onclick="End()" ></button>Нет</div>
-
+    <div class="refresh" id="refreshId"><p>Хотите новую дату?</p>
+    <button class="button button2" onclick="Clear()"></button>Да
+    <button class="button button1" onclick="End()"></button>Нет</div>
+    </div>
 </body>
 </html> 
