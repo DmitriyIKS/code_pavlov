@@ -12,8 +12,10 @@ var year;
 function cYear() {
     year1 = document.querySelector('.year').value;
     year = year1 % 12; 
-        if ( year == 1 ) {
+        if ( year ==0  ) {
             document.getElementById('god-content').innerHTML = "Вы родились в год Обезьяны вы очень энергичны и стремительны " + '<br>' + "<img src='img/monkey.jpg' width='450' height='450'>";
+        } else if ( year == 1 ) {
+            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
         } else if ( year == 2 ) {
             document.getElementById('god-content').innerHTML = "Вы родились в год " ;
         } else if ( year == 3 ) {
@@ -34,8 +36,6 @@ function cYear() {
             document.getElementById('god-content').innerHTML = "Вы родились в год " ;
         } else if ( year == 11 ) {
             document.getElementById('god-content').innerHTML = "Вы родились в год " ;
-        } else if ( year == 12 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
         } else {
             document.getElementById('god-content').innerHTML = "Error";
         }
@@ -44,7 +44,7 @@ function Open() {
     document.getElementById('vtrBlokId').innerHTML = '<h1>По году или по знаку задиака?</h1>' + '<button class="button button3" onclick="openYear()"></button>' + 'По году' + '<button class="button button4" onclick="openZod()"></button>' + 'По знаку Зодиака';
 }
 function openYear() {
-    document.getElementById('trtBlokId').innerHTML = '<div class="godina">' + '<p>Введите год рождения</p>' + '<input type="number" min="1900" max="2099" step="1" value="" id="year" /><button class="button button12" onclick="cYear()" >Подтвердить</button>' + '<p id="god-content"></p>' + '<img id="avatarka"></div>';
+    document.getElementById('trtBlokId').innerHTML = '<div class="godina">' + '<p>Введите год рождения</p>' + '<input type="number" min="1900" max="2099" step="1" value="" class="year" /><button class="button button12" onclick="cYear()" >Подтвердить</button>' + '<p id="god-content"></p>' + '<img id="avatarka"></div>';
     document.getElementById('refreshId').innerHTML = '<p>Хотите новую дату?</p>' +'<button class="button button2" onclick="Clear()"></button>Да' + '<button class="button button1" onclick="End()"></button>Нет';
 }
 function openZod() {
