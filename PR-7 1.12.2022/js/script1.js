@@ -2,11 +2,45 @@
 function End(){
     alert('Хорошего вам дня, до свидания');
 }
-
-
+var day;
+var month;
 var year1;
 var year;
-
+var x =[] 
+function cZod(){
+    var y = document.querySelector('.month').value
+    y.split('-')
+    x=y
+    month = x[5]+x[6];
+    day = x[8]+x[9];
+    if ( month == 1 && day <= 20 ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы козерог  " + '<br>' + "<img src='img/monkey.jpg' width='450' height='450'>";
+    } else if ( month == 2 && day <=16) {
+        document.getElementById('zodiak-content').innerHTML = "Вы козерог " + '<br>' + "<img src='img/petyx.jpg' width='450' height='450'>";
+    } else if (  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Собики " + '<br>' + "<img src='img/dog.jpg' width='450' height='450'>";
+    } else if (  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Свиньи " + '<br>' + "<img src='img/pig.jpg' width='450' height='450'>";
+    } else if ( ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Крысы " + '<br>' + "<img src='img/kris.jpg' width='450' height='450'>";
+    } else if (  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Быка " + '<br>' + "<img src='img/bik.jpg' width='450' height='450'>";
+    } else if ( ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Тигра " + '<br>' + "<img src='img/tigr.jpg' width='450' height='450'>";
+    } else if (  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Кролика " + '<br>' + "<img src='img/krolik.jpg' width='450' height='450'>";
+    } else if (  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Дракона " + '<br>' + "<img src='img/drakon.jpg' width='450' height='450'>";
+    } else if (  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Змеи " + '<br>' + "<img src='img/zmei.jpg' width='450' height='450'>";
+    } else if (  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Лошади " + '<br>' + "<img src='img/lohad.jpg' width='450' height='450'>";
+    } else if (  ) {
+        document.getElementById('zodiak-content').innerHTML = "Вы родились в год Козы " + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
+    } else {
+        document.getElementById('zodiak-content').innerHTML = "Error";
+    }
+}
 
 // Функция рассчета года зодиака
 function cYear() {
@@ -48,7 +82,7 @@ function openYear() {
     document.getElementById('refreshId').innerHTML = '<p>Хотите новую дату?</p>' +'<button class="button button2" onclick="Clear()"></button>Да' + '<button class="button button1" onclick="End()"></button>Нет';
 }
 function openZod() {
-    document.getElementById('trtBlokId').innerHTML = '<div class="zodiak">' + '<p>Введите дату рождения</p>' + '<input type="date" name="" id="month"><button class="button button21" onclick="cZod()" >Подтвердить</button>' + '<p id="zodiak-content"></p></div>';
+    document.getElementById('trtBlokId').innerHTML = '<div class="zodiak">' + '<p>Введите дату рождения</p>' + '<input type="date" name="" class="month"><button class="button button21" onclick="cZod()" >Подтвердить</button>' + '<p id="zodiak-content"></p></div>';
     document.getElementById('refreshId').innerHTML = '<p>Хотите новую дату?</p>' +'<button class="button button2" onclick="Clear()"></button>Да' + '<button class="button button1" onclick="End()"></button>Нет';
 }
 function Clear() {
