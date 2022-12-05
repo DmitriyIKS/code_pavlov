@@ -219,4 +219,21 @@ body {
 .slide:nth-of-type(12) {
     background-image: url(img/bliz.pt);
 }
-H1  { text-align: center };
+
+
+.godina {
+    float: left;
+    display: block;
+    
+}
+.zodiak {
+    float: right;
+    display: block;
+    
+    
+}
+.refresh {
+    display: block;
+    text-align: center;
+    margin-top: 250px;
+}
