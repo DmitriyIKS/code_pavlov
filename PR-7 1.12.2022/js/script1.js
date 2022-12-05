@@ -4,35 +4,37 @@ function End(){
 }
 
 
+var year1;
 var year;
-year = 12 % 12;
+
 
 // Функция рассчета года зодиака
 function cYear() {
-    
-        if ( year = 1 ) {
+    year1 = document.querySelector('.year').value;
+    year = year1 % 12; 
+        if ( year == 1 ) {
             document.getElementById('god-content').innerHTML = "Вы родились в год Обезьяны вы очень энергичны и стремительны " + '<br>' + "<img src='img/monkey.jpg' width='450' height='450'>";
-        } else if ( year = 1 ) {
+        } else if ( year == 2 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 3 ) {
+        } else if ( year == 3 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 4 ) {
+        } else if ( year == 4 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 5 ) {
+        } else if ( year == 5 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 6 ) {
+        } else if ( year == 6 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 7 ) {
+        } else if ( year == 7 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 8 ) {
+        } else if ( year == 8 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 9 ) {
+        } else if ( year == 9 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 10 ) {
+        } else if ( year == 10 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 11 ) {
+        } else if ( year == 11 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
-        } else if ( year = 12 ) {
+        } else if ( year == 12 ) {
             document.getElementById('Year').innerHTML = "Вы родились в год " ;
         } else {
             document.getElementById('Year').innerHTML = "Error";
