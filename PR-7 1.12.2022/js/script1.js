@@ -13,29 +13,29 @@ function cYear() {
     year1 = document.querySelector('.year').value;
     year = year1 % 12; 
         if ( year ==0  ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год Обезьяны вы очень энергичны и стремительны " + '<br>' + "<img src='img/monkey.jpg' width='450' height='450'>";
+            document.getElementById('god-content').innerHTML = "Вы родились в год Обезьяны  " + '<br>' + "<img src='img/monkey.jpg' width='450' height='450'>";
         } else if ( year == 1 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Петуха " + '<br>' + "<img src='img/petyx.jpg' width='450' height='450'>";
         } else if ( year == 2 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Собики " + '<br>' + "<img src='img/dog.jpg' width='450' height='450'>";
         } else if ( year == 3 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Свиньи " + '<br>' + "<img src='img/pig.jpg' width='450' height='450'>";
         } else if ( year == 4 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Крысы " + '<br>' + "<img src='img/kris.jpg' width='450' height='450'>";
         } else if ( year == 5 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Быка " + '<br>' + "<img src='img/bik.jpg' width='450' height='450'>";
         } else if ( year == 6 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Тигра " + '<br>' + "<img src='img/tigr.jpg' width='450' height='450'>";
         } else if ( year == 7 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Кролика " + '<br>' + "<img src='img/krolik.jpg' width='450' height='450'>";
         } else if ( year == 8 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Дракона " + '<br>' + "<img src='img/drakon.jpg' width='450' height='450'>";
         } else if ( year == 9 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Змеи " + '<br>' + "<img src='img/zmei.jpg' width='450' height='450'>";
         } else if ( year == 10 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Лошади " + '<br>' + "<img src='img/lohad.jpg' width='450' height='450'>";
         } else if ( year == 11 ) {
-            document.getElementById('god-content').innerHTML = "Вы родились в год " ;
+            document.getElementById('god-content').innerHTML = "Вы родились в год Козы " + '<br>' + "<img src='img/koza.jpg' width='450' height='450'>";
         } else {
             document.getElementById('god-content').innerHTML = "Error";
         }
