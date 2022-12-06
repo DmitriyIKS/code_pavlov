@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cлайдер</title>
+    <link rel="stylesheet" href="stely.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+<div class="slider"><ul id="slides">
+        <li class="slide showing"></li>
+        <li class="slide"> </li>
+        <li class="slide"> </li>
+        <li class="slide"> </li>
+        <li class="slide"> </li>
+        <li class="slide"> </li>
+        <li class="slide"> </li>
+        <li class="slide"> </li>
+        <li class="slide"> </li>
+        <li class="slide"> </li>
+    </ul>
+</div>
+<input type="range"class="range" min="1000" max="20000" value="1000" step="1000">
+    <script> 
+    var a; 
+    a = document.querySelectorAll('.range').value;
+        var slides = document.querySelectorAll('#slides .slide');
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide, a);
+    
+        function nextSlide() {
+        slides[currentSlide].className = 'slide';
+        currentSlide = (currentSlide+1)%slides.length;
+        slides[currentSlide].className = 'slide showing';
+        }    
+    </script>
+</body>
+</html>
