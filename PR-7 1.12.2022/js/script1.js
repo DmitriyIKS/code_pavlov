@@ -110,7 +110,7 @@ function openYear() {
 }
 function openZod() {
     document.getElementById('trtBlokId').innerHTML = '<div class="zodiak">' + '<p>Введите дату рождения</p>' + '<input type="date" name="" class="month"><button class="button button21" onclick="cZod()" >Подтвердить</button>' + '<p id="zodiak-content"></p></div>';
-    document.getElementById('refreshId').innerHTML = '<p>Хотите новую дату?</p>' +'<button class="button button2" onclick="Clear()"></button>Да' + '<button class="button button1" onclick="End()"></button>Нет';
+    document.getElementById('refreshId').innerHTML = '<div class="NewDate" <h1>Хотите новую дату?</h1>' +'<button class="button button2" onclick="Clear()"></button>Да' + '<button class="button button1" onclick="End()"></button>Нет</div>';
 }
 function Clear() {
     document.getElementById('clearId').innerHTML = '<div class="prvblok"><h1>Хотите знать о себе?</h1>' + '<button class="button button1" onclick="Open()" ></button>Да   ' + '<button class="button button2" onclick="End()" ></button>Нет</div>' + '<div class="vtrblok" id="vtrBlokId"></div>' + '<div class="trtblok" id="trtBlokId"></div>' + '<div class="refresh" id="refreshId"></div>';

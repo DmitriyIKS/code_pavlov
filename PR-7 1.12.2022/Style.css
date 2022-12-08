@@ -15,6 +15,8 @@ body {
     -moz-background-size: 10px 10px;
     -o-background-size: 10px 10px;
     background-size: 10px 10px;
+    margin-left: auto;
+    margin-right: auto ;
 }
 .button {
     background-color: #ffffff;
@@ -26,12 +28,20 @@ body {
     display: inline-block;
     font-size: 20px;
     margin: 1px 1px;
+
 }
 .button1 {border-radius: 50%;}
 .button2 {border-radius: 50%;}
 .button3 {border-radius: 50%;}
 .button4 {border-radius: 50%;}
-
+.NewDate{
+    margin-left: auto;
+    margin-right: auto ;
+}
+.zodiak{
+    margin-left: auto;
+    margin-right: auto ;
+}
 .button {
     
     
@@ -224,7 +234,26 @@ body {
     background-image: url(img/bliz.pt);
 }
 
-
+H1{
+    text-align: center;
+    
+}
+.button1 {
+    margin-left: auto;
+    margin-right: auto ;
+}
+.button2 {
+    margin-left: auto;
+    margin-right: auto ;
+}
+.button3 {
+    margin-left: auto;
+    margin-right: auto ;
+}
+.button4 {
+    margin-left: auto;
+    margin-right: auto ;
+}
 .godina {
     float: left;
     display: block;
@@ -240,4 +269,12 @@ body {
     display: block;
     text-align: center;
     margin-top: 250px;
+}
+.clearId{
+    margin-left: auto;
+    margin-right: auto ;
+}
+.vtrBlokId{
+    margin-left: auto;
+    margin-right: auto ;
 }
