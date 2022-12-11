@@ -15,8 +15,16 @@ body {
     -moz-background-size: 10px 10px;
     -o-background-size: 10px 10px;
     background-size: 10px 10px;
-    margin-left: auto;
-    margin-right: auto ;
+    /*margin-left: auto;
+    margin-right: auto ;*/
+}
+.right {
+    margin-left: 23px;
+}
+
+.button-group {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .button {
     background-color: #ffffff;
@@ -27,13 +35,22 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 1px 1px;
+    /*margin: 1px 1px;*/
 
 }
-.button1 {border-radius: 50%;}
-.button2 {border-radius: 50%;}
-.button3 {border-radius: 50%;}
-.button4 {border-radius: 50%;}
+.button1 {
+    border-radius: 50%;
+}
+.button2 {
+    border-radius: 50%;
+}
+.button3 {
+    border-radius: 50%;
+}
+.button4 {
+    border-radius: 50%;
+}
+
 .NewDate{
     margin-left: auto;
     margin-right: auto ;
@@ -239,20 +256,16 @@ H1{
     
 }
 .button1 {
-    margin-left: auto;
-    margin-right: auto ;
+    margin: 20px;
 }
 .button2 {
-    margin-left: auto;
-    margin-right: auto ;
+    margin: 20px;
 }
 .button3 {
-    margin-left: auto;
-    margin-right: auto ;
+    margin: 20px;
 }
 .button4 {
-    margin-left: auto;
-    margin-right: auto ;
+    margin: 20px;
 }
 .godina {
     float: left;
@@ -269,12 +282,18 @@ H1{
     display: block;
     text-align: center;
     margin-top: 250px;
+    margin-left: 40%;
+    margin-right: 40%;
 }
-.clearId{
-    margin-left: auto;
-    margin-right: auto ;
+.clearId {
+    margin-left: 45%;
+    margin-right: 45%;
 }
-.vtrBlokId{
-    margin-left: auto;
-    margin-right: auto ;
+.vtrblok {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.prvblok {
+    margin-left: 40%;
+    margin-right: 40%;
 }

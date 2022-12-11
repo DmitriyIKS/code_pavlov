@@ -102,16 +102,16 @@ function cYear() {
 
 
 function Open() {
-    document.getElementById('vtrBlokId').innerHTML = '<h1>По году или по знаку задиака?</h1>' + '<button class="button button3" onclick="openYear()"></button>' + 'По году' + '<button class="button button4" onclick="openZod()"></button>' + 'По знаку Зодиака';
+    document.getElementById('vtrBlokId').innerHTML = '<h1>По году или по знаку задиака?</h1>' + '<div class="button-group"><button class="button button3" onclick="openYear()"></button>' + 'По году   ' + '<button class="button button4" onclick="openZod()"></button>' + 'По знаку Зодиака' + '</div>';
 }
 function openYear() {
     document.getElementById('trtBlokId').innerHTML = '<div class="godina">' + '<p>Введите год рождения</p>' + '<input type="number" min="1900" max="2099" step="1" value="" class="year" /><button class="button button12" onclick="cYear()" >Подтвердить</button>' + '<p id="god-content"></p>' + '<img id="avatarka"></div>';
-    document.getElementById('refreshId').innerHTML = '<p>Хотите новую дату?</p>' +'<button class="button button2" onclick="Clear()"></button>Да' + '<button class="button button1" onclick="End()"></button>Нет';
+    document.getElementById('refreshId').innerHTML = '<h1>Хотите новую дату?</h1>' +'<div class="button-group"><button class="button button2" onclick="Clear()"></button>Да' + '<button class="button button1" onclick="End()"></button>Нет</div>';
 }
 function openZod() {
     document.getElementById('trtBlokId').innerHTML = '<div class="zodiak">' + '<p>Введите дату рождения</p>' + '<input type="date" name="" class="month"><button class="button button21" onclick="cZod()" >Подтвердить</button>' + '<p id="zodiak-content"></p></div>';
-    document.getElementById('refreshId').innerHTML = '<div class="NewDate" <h1>Хотите новую дату?</h1>' +'<button class="button button2" onclick="Clear()"></button>Да' + '<button class="button button1" onclick="End()"></button>Нет</div>';
+    document.getElementById('refreshId').innerHTML = '<div class="NewDate"> <h1>Хотите новую дату?</h1>' +'<div class="button-group"><button class="button button2" onclick="Clear()"></button>Да' + '<button class="button button1" onclick="End()"></button>Нет</div></div>';
 }
 function Clear() {
-    document.getElementById('clearId').innerHTML = '<div class="prvblok"><h1>Хотите знать о себе?</h1>' + '<button class="button button1" onclick="Open()" ></button>Да   ' + '<button class="button button2" onclick="End()" ></button>Нет</div>' + '<div class="vtrblok" id="vtrBlokId"></div>' + '<div class="trtblok" id="trtBlokId"></div>' + '<div class="refresh" id="refreshId"></div>';
+    document.getElementById('clearId').innerHTML = '<div class="prvblok"><h1>Хотите знать о себе?</h1>' + '<div class="button-group"><button class="button button1" onclick="Open()" ></button>Да   ' + '<button class="button button2" onclick="End()" ></button>Нет</div></div>' + '<div class="vtrblok" id="vtrBlokId"></div>' + '<div class="trtblok" id="trtBlokId"></div>' + '<div class="refresh" id="refreshId"></div>';
 }
