@@ -14,7 +14,8 @@ class Slider {
         this.index = 0; // индекс кадра, который сейчас в окне просмотра
         this.length = this.allFrames.length; // сколько всего есть кадров
         this.autoplay = autoplay; // включить автоматическую прокрутку?
-        this.paused = null; // чтобы можно было выключать автопрокрутку
+        this.paused = null; // чтобы можно было выключать автопрокрутк
+        this.int = 3000; // интервал прокрутки
 
         this.init(); // инициализация слайдера
     }
@@ -95,7 +96,8 @@ class Slider {
 
     // запустить автоматическую прокрутку
     play() {
-        this.paused = setInterval(() => this.next(), 3000);
+        this.int = document.querySelector('.input-int').value;
+        this.paused = setInterval(() => this.next(), this.int);
     }
 
     // создать индикатор текущего слайда
