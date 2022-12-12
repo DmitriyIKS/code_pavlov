@@ -106,7 +106,7 @@ class Slider {
         for (let i = 0; i < this.length; i++) {
             let li = document.createElement('li');
             if (i === 0) li.classList.add('active', `in${i}`);
-            /*if (i === 1) li.classList.add('active', `in${i}`);
+            if (i === 1) li.classList.add('active', `in${i}`);
             if (i === 2) li.classList.add('active', `in${i}`);
             if (i === 3) li.classList.add('active', `in${i}`);
             if (i === 4) li.classList.add('active', `in${i}`);
@@ -114,7 +114,7 @@ class Slider {
             if (i === 6) li.classList.add('active', `in${i}`);
             if (i === 7) li.classList.add('active', `in${i}`);
             if (i === 8) li.classList.add('active', `in${i}`);
-            if (i === 9) li.classList.add('active', `in${i}`);*/
+            if (i === 9) li.classList.add('active', `in${i}`);
             ol.append(li);
             children.push(li);
         }

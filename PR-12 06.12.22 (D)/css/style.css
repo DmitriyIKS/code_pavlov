@@ -1,6 +1,6 @@
-$fake-b: 1.5em; // fake border-width
+/*$fake-b: 1.5em; // fake border-width
 $c: rgba(#000, .03);
-$blur: blur(9px);
+$blur: blur(9px);*/
 
 .carousel {
     margin: 0 auto;
@@ -19,17 +19,29 @@ $blur: blur(9px);
     }
         .carousel .carousel-indicators li {
             flex: 0 1 auto;
-            width: 20px;
-            height: 20px;
+            width: 50px;
+            height: 50px;
             margin-right: 5px;
             margin-left: 5px;
             cursor: pointer;
             background-image: url(../img/slide-1.jpg);
-            background-size: 40px;
+            background-size: 100px;
             border: 2px solid #fff;
             border-radius: 50%;
             opacity: 0.4;
         }
+
+        .carousel .carousel-indicators .in0 {background-image: url(../img/slide-1.jpg);}
+        .carousel .carousel-indicators .in1 {background-image: url(../img/slide-2.jpg);}
+        .carousel .carousel-indicators .in2 {background-image: url(../img/slide-3.jpg);}
+        .carousel .carousel-indicators .in3 {background-image: url(../img/slide-4.jpg);}
+        .carousel .carousel-indicators .in4 {background-image: url(../img/slide-5.jpg);}
+        .carousel .carousel-indicators .in5 {background-image: url(../img/slide-6.jpg);}
+        .carousel .carousel-indicators .in6 {background-image: url(../img/slide-7.jpg);}
+        .carousel .carousel-indicators .in7 {background-image: url(../img/slide-8.jpg);}
+        .carousel .carousel-indicators .in8 {background-image: url(../img/slide-9.jpg);}
+        .carousel .carousel-indicators .in9 {background-image: url(../img/slide-10.jpg);}
+
         .carousel .carousel-indicators .active {
             background-color: cyan;
             opacity: 1;
@@ -51,12 +63,12 @@ $blur: blur(9px);
         
     }
         .carousel .carousel-item img {
-            width: 100%;
-            height: 100%;
+            width: 1800px;
+            height: 1080px;
             object-fit: cover;
-            border: solid 10% rgba(#000, .2);
+            border: 10px solid whitesmoke;
             overflow: hidden;
-            padding: $fake-b;
+            padding: 1.5em;
         }
     .carousel .carousel-prev, .carousel .carousel-next {
         position: absolute;
