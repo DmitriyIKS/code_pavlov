@@ -13,59 +13,63 @@
         </script>
     </head>
     <body>
-        <div class="container">
-            <div class="carousel">
-                <div class="carousel-window">
-                    <div class="carousel-slides">
-                        <div class="carousel-item">
-                            <img src="img/slide-1.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide-2.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide-3.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide-4.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide-5.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide-6.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide-7.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide-8.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide-9.jpg" alt="">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/slide-10.jpg" alt="">
+        <div class="bb">
+            <div class="container">
+                <div class="carousel">
+                    <div class="carousel-window">
+                        <div class="carousel-slides">
+                            <div class="carousel-item">
+                                <img src="img/slide-1.jpg" alt="1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide-2.jpg" alt="2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide-3.jpg" alt="3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide-4.jpg" alt="4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide-5.jpg" alt="5">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide-6.jpg" alt="6">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide-7.jpg" alt="7">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide-8.jpg" alt="8">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide-9.jpg" alt="9">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/slide-10.jpg" alt="10">
+                            </div>
                         </div>
                     </div>
+                    <a href="#" class="carousel-prev">
+                        <span class="carousel-prev-icon">&lt;</span>
+                    </a>
+                    <a href="#" class="carousel-next">
+                        <span class="carousel-next-icon">&gt;</span>
+                    </a>
                 </div>
-                <a href="#" class="carousel-prev">
-                    <span class="carousel-prev-icon">&lt;</span>
-                </a>
-                <a href="#" class="carousel-next">
-                    <span class="carousel-next-icon">&gt;</span>
-                </a>
             </div>
-        </div>
-        <div class="menu-conteiner">
-            <div class="intRange">
-                <input oninput="rangeValue.innerText = this.value" type="range" name="range" class="input-int" id="range" min="1000" max="5000" value="3000" step="100"><br><label for="range">Interval msec </label><br><p id="rangeValue">3000</p>
-            </div>
-            <div class="toogle-darkmode">
-                <button class="toogle" onclick="darkmode()">Dark mode toogle</button>
-            </div>
-            <div class="content-slide">
-                <label for="output">Description of the slide</label> <br> <textarea name="Cnt" id="output" cols="30" rows="5"></textarea>
+            <div class="menu-conteiner">
+                <div class="intRange">
+                    <input oninput="rangeValue.innerText = this.value" type="range" name="range" class="input-int" id="range" min="1000" max="5000" value="3000" step="100"><br><label for="range">Interval msec </label><br><p id="rangeValue">3000</p>
+                </div>
+                <div class="toogles">
+                    <button class="onnik" id="onn">On</button>
+                    <button class="ofnik" id="off">Off</button>
+                    <button class="toogle-darkmode" onclick="darkmode()">Dark mode toogle</button>
+                </div>
+                <div class="content-slide">
+                    <label for="output">Description of the slide</label> <br> <textarea name="Cnt" id="output" cols="30" rows="5"></textarea>
+                </div>
             </div>
         </div>
     </body>

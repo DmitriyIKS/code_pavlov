@@ -209,12 +209,12 @@ $blur: blur(9px);*/
         border: whitesmoke solid 5px;
         text-align: center;
       }
-      .toogle-darkmode {
+      .toogles {
         width: 33%;
         border: whitesmoke solid 5px;
         text-align: center;
       }
-      .toogle {
+      .toogle-darkmode {
         margin-top: 5%;
       }
       .dark-mode {

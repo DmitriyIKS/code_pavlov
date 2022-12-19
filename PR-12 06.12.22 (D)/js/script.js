@@ -23,6 +23,10 @@ class Slider {
         this.nextButton = slider.querySelector('.carousel-next');
         // кнопка «назад»
         this.prevButton = slider.querySelector('.carousel-prev');
+        // кнопка «off»
+        this.ofnik = document.querySelector('.ofnik');
+        // кнопка «on»
+        this.onnik = document.querySelector('.onnik');
 
         this.index = 0; // индекс кадра, который сейчас в окне просмотра
         this.length = this.allFrames.length; // сколько всего есть кадров
@@ -70,6 +74,10 @@ class Slider {
             this.slider.addEventListener('mouseenter', () => clearInterval(this.paused));
             // когда мышь покидает пределы слайдера — опять запускаем прокрутку
             this.slider.addEventListener('mouseleave', () => this.play());
+            // когда нажимаем на кнопку — останавливаем автоматическую прокрутку
+            this.ofnik.addEventListener('click', () => clearInterval(this.paused));
+            // когда нажимаем на кнопку — опять запускаем прокрутку
+            this.onnik.addEventListener('click', () => this.play());
         }
     }
 
