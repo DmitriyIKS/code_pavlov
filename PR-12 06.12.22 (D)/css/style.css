@@ -5,6 +5,8 @@ $blur: blur(9px);*/
 .carousel {
     margin: 0 auto;
     position: relative;
+    width: 100%;
+    height: 100%;
 }
     .carousel .carousel-indicators {
         position: absolute;
@@ -48,7 +50,7 @@ $blur: blur(9px);*/
         }
     .carousel .carousel-window {
         width: 100%;
-        height: 500px;
+        height: 1080px;
         position: relative;
         overflow: hidden;
     }
@@ -103,7 +105,7 @@ $blur: blur(9px);*/
         height: 32px;
         -webkit-appearance: none;
         margin: 10px 0;
-        width: 100%;
+        width: 150px;
       }
       input[type=range]:focus {
         outline: none;
@@ -187,5 +189,20 @@ $blur: blur(9px);*/
       }
       input[type=range]:focus::-ms-fill-upper {
         background: #B6B6B6;
+      }
+      .menu-conteiner {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        margin: 5px;
+        border: 10px solid whitesmoke;
+      }
+      .intRange {
+        -webkit-flex: auto;
+        flex: auto;
+      }
+      .content-slide {
+        width: 50%;
       }
       
