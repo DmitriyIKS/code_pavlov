@@ -13,7 +13,7 @@ class Slider {
 
         this.index = 0; // индекс кадра, который сейчас в окне просмотра
         this.length = this.allFrames.length; // сколько всего есть кадров
-        this.autoplay = autoplay; // включить автоматическую прокрутку?
+        this.autoplay = autoplay; // включить автоматическую прокрутку
         this.paused = null; // чтобы можно было выключать автопрокрутк
         this.int = 3000; // интервал прокрутки
 
@@ -27,9 +27,7 @@ class Slider {
         // если кадров три, то ширина каждого кадра будет 100/3 = 33.33333%
         // от ширины контейнера .carousel-slides, то есть 900 пикселей
         this.allFrames.forEach(frame => frame.style.width = 100/this.length + '%');
-        // ширина цепочки кадров должна равна ширине всех кадров, то есть
-        // 900*3 = 2700 пикселей; но удобнее задать в процентах от родителя,
-        // если кадров три, то ширина контейнера кадров будет 100*3 = 300%
+        // ширина цепочки кадров должна равна ширине всех кадров
         this.frameChain.style.width = 100 * this.length + '%';
 
         this.nextButton.addEventListener('click', event => { // клик по кнопке «вперед»
@@ -52,7 +50,7 @@ class Slider {
             });
         });
 
-        if (this.autoplay) { // включить автоматическую прокрутку?
+        if (this.autoplay) { // включить автоматическую прокрутку
             this.play();
             // когда мышь над слайдером — останавливаем автоматическую прокрутку
             this.slider.addEventListener('mouseenter', () => clearInterval(this.paused));
@@ -63,7 +61,7 @@ class Slider {
 
     // перейти к кадру с индексом index
     goto(index) {
-        // изменить текущий индекс...
+        // изменить текущий индекс
         if (index > this.length - 1) {
             this.index = 0;
         } else if (index < 0) {
@@ -71,7 +69,7 @@ class Slider {
         } else {
             this.index = index;
         }
-        // ...и выполнить смещение
+        // и выполнить смещение
         this.move();
     }
 
