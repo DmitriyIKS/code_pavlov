@@ -105,7 +105,7 @@ $blur: blur(9px);*/
         height: 32px;
         -webkit-appearance: none;
         margin: 10px 0;
-        width: 150px;
+        width: 30%;
       }
       input[type=range]:focus {
         outline: none;
@@ -196,13 +196,28 @@ $blur: blur(9px);*/
         -webkit-flex-direction: row;
         flex-direction: row;
         margin: 5px;
-        border: 10px solid whitesmoke;
+        border: 5px solid whitesmoke;
       }
       .intRange {
         -webkit-flex: auto;
         flex: auto;
+        border: whitesmoke solid 5px;
+        text-align: center;
       }
-      .content-slide {
-        width: 50%;
+      .content-slide { 
+        width: 33%;
+        border: whitesmoke solid 5px;
+        text-align: center;
       }
-      
+      .toogle-darkmode {
+        width: 33%;
+        border: whitesmoke solid 5px;
+        text-align: center;
+      }
+      .toogle {
+        margin-top: 5%;
+      }
+      .dark-mode {
+        background-color: #000000;
+        color: white;
+      }

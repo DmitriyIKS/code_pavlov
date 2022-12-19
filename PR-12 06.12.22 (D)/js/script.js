@@ -1,3 +1,4 @@
+// описание к слайдам
 slide1 = 'text';
 slide2 = 'text';
 slide3 = 'text';
@@ -156,4 +157,7 @@ class Slider {
         this.slider.prepend(ol);
         return children;
     }
+}
+function darkmode() {
+    var element = document.body; element.classList.toggle("dark-mode");
 }
