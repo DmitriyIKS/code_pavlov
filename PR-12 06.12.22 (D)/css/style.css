@@ -221,3 +221,22 @@ $blur: blur(9px);*/
         background-color: #000000;
         color: white;
       }
+      footer {
+        position: absolute;
+        text-align: center;
+        color: gray;
+        padding-bottom: 4rem;
+      }
+      
+      footer .copyright {
+        margin-bottom: .3rem;
+      }
+      
+      footer .credits {
+        margin-bottom: 0;
+      }
+      
+      footer .credits a {
+        color: gray;
+      }
+      
