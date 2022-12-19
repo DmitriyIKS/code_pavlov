@@ -112,27 +112,27 @@ class Slider {
         this.frameChain.style.transform = `translateX(-${offset}%)`;
         this.dotButtons.forEach(dot => dot.classList.remove('active'));
         this.dotButtons[this.index].classList.add('active');
-        // определяет индекс активного слайда и добавляет описание к нему
-        if (this.dotButtons[this.index].classList.contains("in0") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide1;
+        // определяет индекс активного слайда { // добавляет описание к нему; // считает процент слайдера; }
+          if (this.dotButtons[this.index].classList.contains("in0") && this.dotButtons[this.index].classList.contains("active")) {
+            document.getElementById('output').innerHTML = slide1; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         } if (this.dotButtons[this.index].classList.contains("in1") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide2;
+            document.getElementById('output').innerHTML = slide2; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         } if (this.dotButtons[this.index].classList.contains("in2") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide3;
+            document.getElementById('output').innerHTML = slide3; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         } if (this.dotButtons[this.index].classList.contains("in3") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide4;
+            document.getElementById('output').innerHTML = slide4; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         } if (this.dotButtons[this.index].classList.contains("in4") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide5;
+            document.getElementById('output').innerHTML = slide5; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         } if (this.dotButtons[this.index].classList.contains("in5") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide6;
+            document.getElementById('output').innerHTML = slide6; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         } if (this.dotButtons[this.index].classList.contains("in6") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide7;
+            document.getElementById('output').innerHTML = slide7; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         } if (this.dotButtons[this.index].classList.contains("in7") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide8;
+            document.getElementById('output').innerHTML = slide8; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         } if (this.dotButtons[this.index].classList.contains("in8") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide9;
+            document.getElementById('output').innerHTML = slide9; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         } if (this.dotButtons[this.index].classList.contains("in9") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = slide10;
+            document.getElementById('output').innerHTML = slide10; document.getElementById('ind').innerHTML = `${this.index * 10}%`;
         }
     }
 
