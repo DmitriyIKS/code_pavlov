@@ -1,4 +1,16 @@
+slide1 = 'text';
+slide2 = 'text';
+slide3 = 'text';
+slide4 = 'text';
+slide5 = 'text';
+slide6 = 'text';
+slide7 = 'text';
+slide8 = 'text';
+slide9 = 'text';
+slide10 = 'text';
+
 class Slider {
+    
     constructor(slider, autoplay = true) {
         // элемент div.carousel
         this.slider = slider;
@@ -18,6 +30,7 @@ class Slider {
         this.int = 3000; // интервал прокрутки
 
         this.init(); // инициализация слайдера
+
     }
 
     init() {
@@ -92,25 +105,25 @@ class Slider {
         this.dotButtons[this.index].classList.add('active');
         // определяет индекс активного слайда и добавляет описание к нему
         if (this.dotButtons[this.index].classList.contains("in0") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide1';
+            document.getElementById('output').innerHTML = slide1;
         } if (this.dotButtons[this.index].classList.contains("in1") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide2';
+            document.getElementById('output').innerHTML = slide2;
         } if (this.dotButtons[this.index].classList.contains("in2") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide3';
+            document.getElementById('output').innerHTML = slide3;
         } if (this.dotButtons[this.index].classList.contains("in3") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide4';
+            document.getElementById('output').innerHTML = slide4;
         } if (this.dotButtons[this.index].classList.contains("in4") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide5';
+            document.getElementById('output').innerHTML = slide5;
         } if (this.dotButtons[this.index].classList.contains("in5") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide6';
+            document.getElementById('output').innerHTML = slide6;
         } if (this.dotButtons[this.index].classList.contains("in6") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide7';
+            document.getElementById('output').innerHTML = slide7;
         } if (this.dotButtons[this.index].classList.contains("in7") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide8';
+            document.getElementById('output').innerHTML = slide8;
         } if (this.dotButtons[this.index].classList.contains("in8") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide9';
+            document.getElementById('output').innerHTML = slide9;
         } if (this.dotButtons[this.index].classList.contains("in9") && this.dotButtons[this.index].classList.contains("active")) {
-            document.getElementById('output').innerHTML = 'slide10';
+            document.getElementById('output').innerHTML = slide10;
         }
     }
 
