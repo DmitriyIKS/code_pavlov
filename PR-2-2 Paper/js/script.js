@@ -26,6 +26,9 @@ $(document).ready(function(){
     $('#ctx4').click(function (e) { 
         $('#ctx4').hide();
     });
+    $('#ctx5').click(function (e) { 
+        $('#ctx5').hide();
+    });
     $('input[type="submit"]').click(function(){
         $(this).toggleClass('red');
     });
@@ -59,12 +62,12 @@ $(document).ready(function(){
          times: 50,
          easing: 'linear',
         });*/
-        function Pulse(star3, State) {
+        function Pulse(target, State) {
             //Every 750ms, fade between half and full opacity
-            $(star3).fadeTo(750, State?1:.5, function() {Pulse(star3, !State)});
+            $(target).fadeTo(750, State?1:.5, function() {Pulse(target, !State)});
         }
     
-        $("#ImageId").hover(function () {
+        $(".star3").hover(function () {
             $(this).stop()
             Pulse(this);
         }, function () {
