@@ -8,6 +8,7 @@
 И помощь в написании кода по пройденному материалу
 <hr>
 <br>
-## Релизы
-* [Все работы за 1 семестр](https://github.com/DmiriyIKS/code_pavlov/blob/main/%23Releases/%231sem.rar)
-* [Все работы за 2 семестр](https://github.com/DmiriyIKS/code_pavlov/blob/main/%23Releases/%232sem.rar)
+<h1>Релизы</h1>
+<a href="https://github.com/DmiriyIKS/code_pavlov/blob/main/%23Releases/%231sem.rar">Все работы за 1 семестр</a>
+<br>
+<a href="https://github.com/DmiriyIKS/code_pavlov/blob/main/%23Releases/%232sem.rar">Все работы за 2 семестр</a>
