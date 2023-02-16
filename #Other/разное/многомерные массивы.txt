@@ -1,0 +1,55 @@
+const trees = [
+    ['Fir', 'Siberia', 91, false],
+    ['Oak', 'Moderate', 88 , true],
+    ['Pine',101,'Siberia',false]
+];
+document.write(trees[0][0],trees[1][0],trees[2][0]);
+
+
+
+
+
+const tools = [
+    ['Hammer',200],
+    ['Pickaxe',300],
+    ['Axe',400]
+];
+tools[0][1] = 'green'
+tools[1][1] = 'black'
+document.write(tools[0][1],tools[1][1],)
+
+
+
+Spread оператор
+
+const flowers =[
+    ['sunflowers','Rose','Daisies']
+];
+document.write(...flowers); // выводит элементы массива по очереди
+
+
+
+
+
+
+
+
+
+const users = ['Tom','Sam','Bob'];
+console.log(users);
+const people1 = [...users];
+const people2 = new Array(...users);
+const people3 = Array.of(...users);
+console.log(people1);
+console.log(people2);
+console.log(people3);
+
+
+
+
+
+const people = ['Sam','Tom','Bob'];
+const employees = [...people];
+employees[0]='Dan';
+console.log(employees);
+console.log(people);

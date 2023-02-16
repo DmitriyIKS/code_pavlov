@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+	<meta charset="UTF-8">
+		<title>Document</title>
+</head>
+<body>
+<h1>Работа с массивами выталкивание</h1>
+<h2>Метод рор() удаляет последний элемент из массива</h2>
+<p id="tr1"></p>
+<p id="tr2"></p>
+<script>
+var tools = ['тяпка','грабли','лопата','мотыга','топор']
+document.getElementById('tr1').innerHTML = tools.join('-');
+tools.pop();
+document.getElementById('tr2').innerHTML = 'Новый массив ' + '' + tools.join(' * ');
+
+
+
+
+</script>
+<hr>
+<br><br><br><br><br>
+<h2>метод Push() добовляет новый элемент в массив (в конце)</h2>
+
+<button onclick="myFunction()">ДОБАВИТЬ</button>
+<p id="tr3"></p>
+<script>
+var tools = ['тяпка','грабли','лопата','мотыга','топор']
+document.getElementById('tr1').innerHTML = 'First mas ' + tools.toString('*');
+function myFunction() {
+	tools.push('сено')
+	document.getElementById('tr3').innerHTML ='Новый массив:<br>' + tools.toString();
+}
+function myFunction2() {
+document.getElementById('tr4').innerHTML = 'saved massiv: ' + tools.toString();
+
+}
+</script>
+<h1>Metod shift(</h1>
+<p>Метод shift() удаляет первый\
+элемент массива и 'ставит' все другие элеметы к более низкому индексу</p>
+<button onclick='myFun()'>Удалить первый</button>
+<p id='tr5'></p>
+<p id='tr6'></p>
+<script>
+
+var tools = ['тяпка','грабли','лопата','мотыга','топор'];
+tools.push('трактор','серп','молот','колхоз');
+
+document.getElementById('tr5').innerHTML = 'Первый массив:<br> ' + tools.join(' * ');
+
+function myFun(){
+	document.getElementById("tr6").innerHTML =
+tools.shift("");
+	document.getElementById('tr5').innerHTML = tools;
+
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
