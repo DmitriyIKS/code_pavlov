@@ -1,0 +1,15 @@
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\bin\Debug\net6.0\Sunday.exe
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\bin\Debug\net6.0\Sunday.deps.json
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\bin\Debug\net6.0\Sunday.runtimeconfig.json
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\bin\Debug\net6.0\Sunday.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\bin\Debug\net6.0\Sunday.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\Sunday.csproj.AssemblyReference.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\Sunday.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\Sunday.AssemblyInfoInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\Sunday.AssemblyInfo.cs
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\Sunday.csproj.CoreCompileInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\Sunday.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\refint\Sunday.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\Sunday.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\Sunday.genruntimeconfig.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Sunday\obj\Debug\net6.0\ref\Sunday.dll

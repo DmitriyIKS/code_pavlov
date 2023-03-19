@@ -1,0 +1,15 @@
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\bin\Debug\net6.0\Disk.exe
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\bin\Debug\net6.0\Disk.deps.json
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\bin\Debug\net6.0\Disk.runtimeconfig.json
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\bin\Debug\net6.0\Disk.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\bin\Debug\net6.0\Disk.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\Disk.csproj.AssemblyReference.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\Disk.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\Disk.AssemblyInfoInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\Disk.AssemblyInfo.cs
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\Disk.csproj.CoreCompileInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\Disk.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\refint\Disk.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\Disk.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\Disk.genruntimeconfig.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Disk\Disk\obj\Debug\net6.0\ref\Disk.dll

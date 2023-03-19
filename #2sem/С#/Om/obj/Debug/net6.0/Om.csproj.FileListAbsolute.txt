@@ -1,0 +1,60 @@
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\Om.csproj.AssemblyReference.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\Om.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\Om.AssemblyInfoInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\Om.AssemblyInfo.cs
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\Om.csproj.CoreCompileInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Om\bin\Debug\net6.0\Om.exe
+D:\Учебные года\2022-2023\Шипов, Серый\Om\bin\Debug\net6.0\Om.deps.json
+D:\Учебные года\2022-2023\Шипов, Серый\Om\bin\Debug\net6.0\Om.runtimeconfig.json
+D:\Учебные года\2022-2023\Шипов, Серый\Om\bin\Debug\net6.0\Om.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Om\bin\Debug\net6.0\Om.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\Om.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\refint\Om.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\Om.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\Om.genruntimeconfig.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Om\obj\Debug\net6.0\ref\Om.dll
+D:\Om\obj\Debug\net6.0\Om.csproj.AssemblyReference.cache
+D:\Om\obj\Debug\net6.0\Om.GeneratedMSBuildEditorConfig.editorconfig
+D:\Om\obj\Debug\net6.0\Om.AssemblyInfoInputs.cache
+D:\Om\obj\Debug\net6.0\Om.AssemblyInfo.cs
+D:\Om\obj\Debug\net6.0\Om.csproj.CoreCompileInputs.cache
+D:\Om\obj\Debug\net6.0\Om.dll
+D:\Om\obj\Debug\net6.0\refint\Om.dll
+D:\Om\obj\Debug\net6.0\Om.pdb
+D:\Om\bin\Debug\net6.0\Om.exe
+D:\Om\bin\Debug\net6.0\Om.deps.json
+D:\Om\bin\Debug\net6.0\Om.runtimeconfig.json
+D:\Om\bin\Debug\net6.0\Om.dll
+D:\Om\bin\Debug\net6.0\Om.pdb
+D:\Om\obj\Debug\net6.0\Om.genruntimeconfig.cache
+D:\Om\obj\Debug\net6.0\ref\Om.dll
+E:\Om\obj\Debug\net6.0\Om.csproj.AssemblyReference.cache
+E:\Om\obj\Debug\net6.0\Om.GeneratedMSBuildEditorConfig.editorconfig
+E:\Om\obj\Debug\net6.0\Om.AssemblyInfoInputs.cache
+E:\Om\obj\Debug\net6.0\Om.AssemblyInfo.cs
+E:\Om\obj\Debug\net6.0\Om.csproj.CoreCompileInputs.cache
+E:\Om\obj\Debug\net6.0\Om.dll
+E:\Om\obj\Debug\net6.0\refint\Om.dll
+E:\Om\obj\Debug\net6.0\Om.pdb
+E:\Om\bin\Debug\net6.0\Om.exe
+E:\Om\bin\Debug\net6.0\Om.deps.json
+E:\Om\bin\Debug\net6.0\Om.runtimeconfig.json
+E:\Om\bin\Debug\net6.0\Om.dll
+E:\Om\bin\Debug\net6.0\Om.pdb
+E:\Om\obj\Debug\net6.0\Om.genruntimeconfig.cache
+E:\Om\obj\Debug\net6.0\ref\Om.dll
+H:\Om\bin\Debug\net6.0\Om.exe
+H:\Om\bin\Debug\net6.0\Om.deps.json
+H:\Om\bin\Debug\net6.0\Om.runtimeconfig.json
+H:\Om\bin\Debug\net6.0\Om.dll
+H:\Om\bin\Debug\net6.0\Om.pdb
+H:\Om\obj\Debug\net6.0\Om.csproj.AssemblyReference.cache
+H:\Om\obj\Debug\net6.0\Om.GeneratedMSBuildEditorConfig.editorconfig
+H:\Om\obj\Debug\net6.0\Om.AssemblyInfoInputs.cache
+H:\Om\obj\Debug\net6.0\Om.AssemblyInfo.cs
+H:\Om\obj\Debug\net6.0\Om.csproj.CoreCompileInputs.cache
+H:\Om\obj\Debug\net6.0\Om.dll
+H:\Om\obj\Debug\net6.0\refint\Om.dll
+H:\Om\obj\Debug\net6.0\Om.pdb
+H:\Om\obj\Debug\net6.0\Om.genruntimeconfig.cache
+H:\Om\obj\Debug\net6.0\ref\Om.dll

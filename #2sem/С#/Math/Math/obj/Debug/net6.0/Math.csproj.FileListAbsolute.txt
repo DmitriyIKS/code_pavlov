@@ -1,0 +1,15 @@
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\bin\Debug\net6.0\Math.exe
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\bin\Debug\net6.0\Math.deps.json
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\bin\Debug\net6.0\Math.runtimeconfig.json
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\bin\Debug\net6.0\Math.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\bin\Debug\net6.0\Math.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\Math.csproj.AssemblyReference.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\Math.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\Math.AssemblyInfoInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\Math.AssemblyInfo.cs
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\Math.csproj.CoreCompileInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\Math.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\refint\Math.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\Math.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\Math.genruntimeconfig.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Math\Math\obj\Debug\net6.0\ref\Math.dll

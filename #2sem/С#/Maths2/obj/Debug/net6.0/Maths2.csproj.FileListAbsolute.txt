@@ -1,0 +1,45 @@
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\bin\Debug\net6.0\Maths2.exe
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\bin\Debug\net6.0\Maths2.deps.json
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\bin\Debug\net6.0\Maths2.runtimeconfig.json
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\bin\Debug\net6.0\Maths2.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\bin\Debug\net6.0\Maths2.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\Maths2.csproj.AssemblyReference.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\Maths2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\Maths2.AssemblyInfoInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\Maths2.AssemblyInfo.cs
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\Maths2.csproj.CoreCompileInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\Maths2.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\refint\Maths2.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\Maths2.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\Maths2.genruntimeconfig.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Maths2\obj\Debug\net6.0\ref\Maths2.dll
+E:\Maths2\bin\Debug\net6.0\Maths2.exe
+E:\Maths2\bin\Debug\net6.0\Maths2.deps.json
+E:\Maths2\bin\Debug\net6.0\Maths2.runtimeconfig.json
+E:\Maths2\bin\Debug\net6.0\Maths2.dll
+E:\Maths2\bin\Debug\net6.0\Maths2.pdb
+E:\Maths2\obj\Debug\net6.0\Maths2.csproj.AssemblyReference.cache
+E:\Maths2\obj\Debug\net6.0\Maths2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Maths2\obj\Debug\net6.0\Maths2.AssemblyInfoInputs.cache
+E:\Maths2\obj\Debug\net6.0\Maths2.AssemblyInfo.cs
+E:\Maths2\obj\Debug\net6.0\Maths2.csproj.CoreCompileInputs.cache
+E:\Maths2\obj\Debug\net6.0\Maths2.dll
+E:\Maths2\obj\Debug\net6.0\refint\Maths2.dll
+E:\Maths2\obj\Debug\net6.0\Maths2.pdb
+E:\Maths2\obj\Debug\net6.0\Maths2.genruntimeconfig.cache
+E:\Maths2\obj\Debug\net6.0\ref\Maths2.dll
+C:\Users\User\OneDrive\Рабочий стол\Maths2\bin\Debug\net6.0\Maths2.exe
+C:\Users\User\OneDrive\Рабочий стол\Maths2\bin\Debug\net6.0\Maths2.deps.json
+C:\Users\User\OneDrive\Рабочий стол\Maths2\bin\Debug\net6.0\Maths2.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\Maths2\bin\Debug\net6.0\Maths2.dll
+C:\Users\User\OneDrive\Рабочий стол\Maths2\bin\Debug\net6.0\Maths2.pdb
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\Maths2.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\Maths2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\Maths2.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\Maths2.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\Maths2.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\Maths2.dll
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\refint\Maths2.dll
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\Maths2.pdb
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\Maths2.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\Maths2\obj\Debug\net6.0\ref\Maths2.dll

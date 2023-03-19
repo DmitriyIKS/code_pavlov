@@ -1,0 +1,30 @@
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\bin\Debug\net6.0\Celsius.exe
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\bin\Debug\net6.0\Celsius.deps.json
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\bin\Debug\net6.0\Celsius.runtimeconfig.json
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\bin\Debug\net6.0\Celsius.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\bin\Debug\net6.0\Celsius.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\Celsius.csproj.AssemblyReference.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\Celsius.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\Celsius.AssemblyInfoInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\Celsius.AssemblyInfo.cs
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\Celsius.csproj.CoreCompileInputs.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\Celsius.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\refint\Celsius.dll
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\Celsius.pdb
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\Celsius.genruntimeconfig.cache
+D:\Учебные года\2022-2023\Шипов, Серый\Celsius\obj\Debug\net6.0\ref\Celsius.dll
+D:\Celsius\bin\Debug\net6.0\Celsius.exe
+D:\Celsius\bin\Debug\net6.0\Celsius.deps.json
+D:\Celsius\bin\Debug\net6.0\Celsius.runtimeconfig.json
+D:\Celsius\bin\Debug\net6.0\Celsius.dll
+D:\Celsius\bin\Debug\net6.0\Celsius.pdb
+D:\Celsius\obj\Debug\net6.0\Celsius.csproj.AssemblyReference.cache
+D:\Celsius\obj\Debug\net6.0\Celsius.GeneratedMSBuildEditorConfig.editorconfig
+D:\Celsius\obj\Debug\net6.0\Celsius.AssemblyInfoInputs.cache
+D:\Celsius\obj\Debug\net6.0\Celsius.AssemblyInfo.cs
+D:\Celsius\obj\Debug\net6.0\Celsius.csproj.CoreCompileInputs.cache
+D:\Celsius\obj\Debug\net6.0\Celsius.dll
+D:\Celsius\obj\Debug\net6.0\refint\Celsius.dll
+D:\Celsius\obj\Debug\net6.0\Celsius.pdb
+D:\Celsius\obj\Debug\net6.0\Celsius.genruntimeconfig.cache
+D:\Celsius\obj\Debug\net6.0\ref\Celsius.dll

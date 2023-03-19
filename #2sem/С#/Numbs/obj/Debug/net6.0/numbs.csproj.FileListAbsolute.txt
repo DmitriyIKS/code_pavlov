@@ -1,0 +1,15 @@
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\numbs.csproj.AssemblyReference.cache
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\numbs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\numbs.AssemblyInfoInputs.cache
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\numbs.AssemblyInfo.cs
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\numbs.csproj.CoreCompileInputs.cache
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\bin\Debug\net6.0\numbs.exe
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\bin\Debug\net6.0\numbs.deps.json
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\bin\Debug\net6.0\numbs.runtimeconfig.json
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\bin\Debug\net6.0\numbs.dll
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\bin\Debug\net6.0\numbs.pdb
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\numbs.dll
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\refint\numbs.dll
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\numbs.pdb
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\numbs.genruntimeconfig.cache
+C:\Users\ssser\Desktop\Code\code_pavlov\#2sem\numbs\obj\Debug\net6.0\ref\numbs.dll
